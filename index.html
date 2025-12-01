@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Аналитика</title>
+</head>
+
+<body>
+    <main class="app">
+        <div class="app__wripper">
+            <section class="app__analitic">
+                <table class="app__table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Показатель</th>
+                            <th scope="col">Текущий день</th>
+                            <th scope="col">Вчера</th>
+                            <th scope="col">Этот день недели</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body" class="table">
+                    </tbody>
+                </table>
+            </section>
+            <section class="app__chart">
+                <div id="mainChart"></div>
+            </section>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts" defer></script>
+    <script src="./js/main.js" defer></script>
+</body>
+
+</html>
